@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/custom.css" type="text/css"/>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Barlow:400,700&display=swap" rel="stylesheet">
-    <title>Vitals Klinic</title>
+    <title>Laser Hair Removal in Bangalore - Vitals Clinic</title>
     <style>
         .caption{
             padding:0px 20px;
@@ -50,6 +50,22 @@
         .headeBody{
             padding-top: 118px;
         }
+        .phoneNumber{
+          text-decoration: none !important;
+          color: white !important;
+        }
+        .phoneNumberHeader{
+          text-decoration: none !important;
+          color: #4eaac8  !important;
+        }
+        .romw-list{
+          margin-top: 25px;
+        }
+        .termAnchor{
+          font-size: 20px !important;
+          color: white !important;
+          text-decoration: none !important;
+        }
         
         @media screen and (max-width:960px){
             .logo{
@@ -58,9 +74,13 @@
             .floatright{
                 float:none;
             }
+            #myVideo{
+              height: 33vh !important;
+            }
             
         }
-        .leftbtn,.rightbtn{display:none;}@media screen and (max-width:960px){.leftbtn,.rightbtn{display:block;position:fixed;bottom:0px;width:50%;text-align:center;height:65px;}.leftbtn{left:0px;}.rightbtn{padding:21px!important;right:0px;}}
+        .leftbtn,.rightbtn{display:none;}@media screen and (max-width:960px){.leftbtn,.rightbtn{display:block;position:fixed;bottom:0px;width:50%;text-align:center;height:65px;;background-color: #23b1da !important;
+    border-color: #23b1da !important;}.leftbtn{left:0px;}.rightbtn{padding:21px!important;right:0px;}}
     </style>
     <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -79,7 +99,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="logo">
            <a href="index.html"> <img src="img/logo.png" /></a>
         </div>
-        <div class="right-menu"><h4 class="ph-link"><i class="fas fa-phone-square blue fa-flip-horizontal"></i> : 97319 08318</h4></div>
+        <div class="right-menu"><h4 class="ph-link"><i class="fas fa-phone-square blue fa-flip-horizontal"></i> <a href="tel:92068 69610" class="phoneNumberHeader">92068 69610</a> </h4></div>
             <div class="floatright">
             <nav class="navbar navbar-expand-lg navbar-light">
                 <a class="navbar-brand" href="index.html"><img src="img/logo.png" /></a>
@@ -90,7 +110,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="nav navbar-nav">
                     <li class="active navListItems">
-                        <a href="home.html" class="navLinksItems text-dark">Home</a>
+                        <a href="index.html" class="navLinksItems ">Home</a>
                     </li>
                     <li class="navListItems">
                         <a href="#about-us" class="navLinksItems">About Us</a>
@@ -134,7 +154,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="wrapper headeBody">
         <div class="banner clear-both">
             <div class="left-sec">
-                  <iframe id="myVideo" style="width:100%" height="560" src="https://www.youtube.com/embed/JAXNXnK0rYM?controls=1&amp;loop=1&amp;mute=1&amp;autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <iframe id="myVideo" style="width:100%" height="560" src="https://www.youtube.com/embed/JAXNXnK0rYM?controls=1&amp;loop=1&amp;mute=1&amp;autoplay=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
             <div id="home" class="right-sec">
                 <h3 class="form-title">Book An Appointment</h3>
@@ -143,7 +163,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <input type="text" name="username" placeholder="Name*" required/>
                     <input type="email" name="emailadd" placeholder="Email*" required/>
                     <input type="tel" name="phoneno" placeholder="Contact No*" required/>
-                    <span class="small-txt text-white">By clicking submit you agree to our Terms and Conditions.</span>
+                    <input type="text" name="pagename" value="LaserHair" hidden/>
+                    <div class="small-txt text-white"><a href="terms-and-conditions.html" class="termAnchor">"By clicking "Call me back" you agree to our Terms and Conditions."</a></div>
                     <a class="" href="thank-you.html"><input class="btn btn-banner" type="submit" name="submit" value="Call me back"/></a>
                 </form>
             </div>
@@ -249,7 +270,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <h3>WHAT PEOPLE SAY</h3>
                     </div>
                 </div>
-                <div class="col-md-12">
+                <div class="col-md-6">
                     <div id="myCarousel" class="carousel">
                         <!-- Wrapper for slides -->
                     
@@ -316,34 +337,39 @@ var review_target = 'review-container';
         </div>
     </section>
     <section id="contact-us" class="section-it bg-theme">
-        <div class="container">
-            <div class="row text-center">
-                <div class="col-md-4 pad-10"><i class="fas mapi fa-phone fa-flip-horizontal"></i><br> <p class="small-txt">97319 08318</p></div>
-                <div class="col-md-4 pad-10"><i class="fab mapi fa-whatsapp"></i><br> <p class="small-txt">97319 08318</p></div>
-                <div class="col-md-4 pad-10"><i class="fas mapi fa-envelope"></i><br> <p class="small-txt">harish.dermsurg@gmail.com</p></div>
-            </div><br>
-            <div class="row addresses">
-                <div class="col-md-6 text-center"><a target="_blank" href="https://goo.gl/maps/ibufG4g6ptCShYa78">
-                    <i class="fas mapi fa-map"></i>
-                    <p class="small-txt"><b>Address #1:</b><br> Vitals Klinic, 8th Main Road, 390, 7th Cross Rd, Stage 2, BTM 2nd Stage, Bengaluru,<br> Karnataka 560076</p>
-                    </a>
-                </div>
-                <div class="col-md-6 text-center"><a target="_blank" href="https://goo.gl/maps/chktYhAgGsznJThs9">
-                    <i class="fas mapi fa-map"></i>
-                    <p class="small-txt"><b>Address #2:</b><br> No.63, Neeladri Main road, Electronic City, Karuna Nagar, Electronics City Phase 1, Doddatoguru, Bengaluru, Karnataka 560100</p>
-                    </a>
-                </div>
-            </div><br>
-            <div class="row">
-                <div class="col-md-6">  
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.9084855714977!2d77.60454931482134!3d12.913603090893952!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae15028e8b1e39%3A0xd10397cb43bf261a!2sVitals+Klinic+%7C+Dermatologist+in+Bangalore+-+Dr.Harish+Prasad!5e0!3m2!1sen!2sin!4v1558441033113!5m2!1sen!2sin" style="width:100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-                </div>
-                <div class="col-md-6">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15560.090533451868!2d77.6457527!3d12.8418139!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xac8750186188b9c8!2sVitals+klinic+%2Fbest+Dermatologist+Near+Electronic+City+%2F+Best+Skin+Care+Clinic+Electronic+City!5e0!3m2!1sen!2sin!4v1558441070095!5m2!1sen!2sin" style="width:100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-                </div>
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-md-4 pad-10"><i class="fas mapi fa-phone fa-flip-horizontal"></i><br> <p class="small-txt"><a href="tel:92068 69610" class="phoneNumber ">92068 69610</a></p></div>
+                    <div class="col-md-4 pad-10"><i class="fab mapi fa-whatsapp"></i><br> <p class="small-txt"><a href="tel:92068 69610" class="phoneNumber">92068 69610</a></p></div>
+                    <div class="col-md-4 pad-10"><i class="fas mapi fa-envelope"></i><br> <p class="small-txt">harish.dermsurg@gmail.com</p></div>
+                </div><br>
+                <div class="row addresses">
+                  <div class="col-md-6 text-center">
+                      <div class="col-md-12 text-center"><a target="_blank" href="https://goo.gl/maps/ibufG4g6ptCShYa78">
+                        <i class="fas mapi fa-map"></i>
+                        <p class="small-txt"><b>Address #1:</b><br> Vitals Klinic, 8th Main Road, 390, 7th Cross Rd, Stage 2, BTM 2nd Stage, Bengaluru,<br> Karnataka 560076</p>
+                        </a>
+                    </div>
+                    <div class="col-md-12">  
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.9084855714977!2d77.60454931482134!3d12.913603090893952!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae15028e8b1e39%3A0xd10397cb43bf261a!2sVitals+Klinic+%7C+Dermatologist+in+Bangalore+-+Dr.Harish+Prasad!5e0!3m2!1sen!2sin!4v1558441033113!5m2!1sen!2sin" style="width:100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>
+                  </div>
+                  <div class="col-md-6 text-center">
+                      <div class="col-md-12 text-center"><a target="_blank" href="https://goo.gl/maps/chktYhAgGsznJThs9">
+                        <i class="fas mapi fa-map"></i>
+                        <p class="small-txt"><b>Address #2:</b><br> No.63, Neeladri Main road, Electronic City, Karuna Nagar, Electronics City Phase 1, Doddatoguru, Bengaluru, Karnataka 560100</p>
+                        </a>
+                    </div>
+                    <div class="col-md-12">  
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15560.090533451868!2d77.6457527!3d12.8418139!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xac8750186188b9c8!2sVitals+klinic+%2Fbest+Dermatologist+Near+Electronic+City+%2F+Best+Skin+Care+Clinic+Electronic+City!5e0!3m2!1sen!2sin!4v1558441070095!5m2!1sen!2sin" style="width:100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>
+                  </div>
+                    
+                    
+                </div><br>
+                
             </div>
-        </div>
-    </section>
+        </section>
     <section class="section-it pad-less">
         <div class="container">
             <div class="row">

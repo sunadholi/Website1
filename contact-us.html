@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/custom.css" type="text/css"/>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Barlow:400,700&display=swap" rel="stylesheet">
-    <title>Vitals Klinic</title>
+    <title> Contact Us - Vitals Clinic</title>
     <style>
       .contactUsDiv{
         background-color: #46bcdd;
@@ -64,27 +64,47 @@
       .descriptionContainer{
         padding: 20px 30px;
       }
+      
+        .phoneNumberHeader{
+          text-decoration: none !important;
+          color: #4eaac8  !important;
+        }
+        .termAnchor{
+          font-size: 15px;
+    color: white;
+    text-decoration: none;
+        }
 
    
     </style>
-</head>
-<body>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-NWF9LSQ');</script>
+    <!-- End Google Tag Manager -->
+    </head>
+    <body>
+        <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NWF9LSQ"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
 
 
 
 <div class="container">
     <div class="col-md-12">
-        <a class="" href="home.html"><img src="img/logo.png" /></a>
+        <a class="" href="index.html"><img src="img/logo.png" /></a>
     </div>
   <div class="row">
     <div class="col-md-8 col-sm-12 col-xs-12 descriptionContainer">
      
       <div>
-        <p class="description">Thick hair and flawless skin are now a choice .Make a move and book an appointment with our expert dermatologist Dr.Harish Prasad and we will take care of your hair skin</p>
+        <p class="description">Thick hair and flawless skin are now a choice. Make a move and book an appointment with our expert dermatologist Dr. Harish Prasad and we will take care of your hair and skin.</p>
       </div>
       <div class="row text-center">
-          <div class="col-md-6 pad-10"><i class="fas mapi fa-phone fa-flip-horizontal"></i><br> <p class="small-txt">97319 08318</p></div>
-          <div class="col-md-6 pad-10"><i class="fab mapi fa-whatsapp"></i><br> <p class="small-txt">97319 08318</p></div>
+          <div class="col-md-6 pad-10"><i class="fas mapi fa-phone fa-flip-horizontal"></i><br> <p class="small-txt"><a href="tel:92068 69610" class="phoneNumberHeader">92068 69610</a></p></div>
+          <div class="col-md-6 pad-10"><i class="fab mapi fa-whatsapp"></i><br> <p class="small-txt"><a href="tel:92068 69610" class="phoneNumberHeader">92068 69610</a></p></div>
           
       </div>
     </div>
@@ -95,9 +115,11 @@
         <form name="bann-form" method="POST" action="email.php">
             <input type="text" name="username" placeholder="Name*" class="contactInputField" required/>
             <input type="email" name="emailadd" placeholder="Email" class="contactInputField" />
+            <input type="text" name="pagename" value="ContactUs" hidden/>
             <input type="tel" name="phoneno" placeholder="Contact No*" class="contactInputField" required/>
-            <span class="small-txt text-white">By clicking submit you agree to our Terms and Conditions.</span>
+        
             <a class="" href="thank-you.html"><input class="btn btn-banner contactInputField" type="submit" name="submit" value="Submit"/></a>
+            <div class="text-center"><a href="terms-and-conditions.html" class="termAnchor">“By clicking “Submit” you agree to our terms and conditions"</a></div>
         </form>
 
     </div>
