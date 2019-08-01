@@ -39,7 +39,7 @@ Phone number: $phone</body></html>";
 		echo "<script>alert('Failed due to server error. Please try again later');location.href=\"index.html\"</script>";
 	}
 	else{
-		echo "<script>location.href=\"https://www.vitalsklinic.com/thankyou\"</script>";	
+		echo "<script>location.href=\"https://www.drharishdermatologist.com/thank-you\"</script>";	
 	}
 }
 ?>
