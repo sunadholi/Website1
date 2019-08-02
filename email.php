@@ -5,8 +5,8 @@ if(isset($_POST['submit']))
 	$email= $_POST['emailadd'];
 	$phone= $_POST['phoneno'];
 	$pageName = $_POST['pagename'];
-	$fromID="manoharg@suntechnologies.com";
-	$toID = "manoharg@suntechnologies.com";
+	$fromID="harish.dermsurg@gmail.com";
+	$toID = "harish.dermsurg@gmail.com";
 	//$toID = "chaitra.bejai11@gmail.com";
 	if(($_POST['phoneno'] == "")||($_POST['username'] == "")||($_POST['emailadd'] == ""))
 	{
@@ -39,7 +39,7 @@ Phone number: $phone</body></html>";
 		echo "<script>alert('Failed due to server error. Please try again later');location.href=\"index.html\"</script>";
 	}
 	else{
-		echo "<script>location.href=\"https://www.drharishdermatologist.com/thank-you\"</script>";	
+		echo "<script>location.href=\"thank-you.html\"</script>";	
 	}
 }
 ?>
